@@ -1,0 +1,73 @@
+// Aside-One
+
+.AsideOne{
+    background: $bg-filter-two;
+    &-container{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+
+        text-align: center;
+        color: #fff;
+
+        &-title{
+            font-size: $heading-large;
+            padding: 1rem;
+        }
+
+        div{
+            p{
+                padding-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+// Aside-Two
+
+.AsideTwo{
+    background: $color-light-gray;
+    &-container{
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        &-bar{
+            &-title{
+                font-size: $heading-large;
+                padding: $gutter;
+            }
+
+            &-explanation{
+                color: $color-explanation;
+            }
+        }
+
+        &-items{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: $gutter-two;
+            padding-bottom: $gutter-two;
+
+            &-item{
+                background: #fff;
+                // border: 1px solid black;
+                padding: 3em;
+                margin: 0.1rem;
+                border-radius: 1rem;
+                width: 20rem;
+                height: 10rem;
+
+                p:nth-child(1){
+                    font-size: $heading-large-two;
+                    font-weight: bold;
+                }
+
+                p:nth-child(2){
+                    color: $color-explanation;
+                }
+            }
+        }
+    }
+}

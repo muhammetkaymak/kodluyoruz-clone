@@ -410,11 +410,9 @@ td {
 
 .btn {
   border: 1px solid orange;
-  padding: 1.2em;
+  padding: 1.1em;
   border-radius: 9999px;
-  font-size: 1.1em;
   font-weight: 700;
-  letter-spacing: 0.1em;
   color: #fff;
   background: #f38605;
 }
@@ -533,6 +531,7 @@ td {
 .Main {
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 .Main-title {
   text-align: center;
@@ -576,4 +575,59 @@ td {
   .Main-item {
     text-align: center;
   }
+}
+.AsideOne {
+  background: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+}
+.AsideOne-container {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  color: #fff;
+}
+.AsideOne-container-title {
+  font-size: 3.5em;
+  padding: 1rem;
+}
+.AsideOne-container div p {
+  padding-bottom: 1.5rem;
+}
+
+.AsideTwo {
+  background: #f9f9f9;
+}
+.AsideTwo-container {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.AsideTwo-container-bar-title {
+  font-size: 3.5em;
+  padding: 0.3em;
+}
+.AsideTwo-container-bar-explanation {
+  color: #c1c1c1;
+}
+.AsideTwo-container-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.AsideTwo-container-items-item {
+  background: #fff;
+  padding: 3em;
+  margin: 0.1rem;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 10rem;
+}
+.AsideTwo-container-items-item p:nth-child(1) {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.AsideTwo-container-items-item p:nth-child(2) {
+  color: #c1c1c1;
 }

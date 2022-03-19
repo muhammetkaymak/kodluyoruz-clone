@@ -10,10 +10,16 @@ $font-family: 'Roboto', sans-serif;
 $color-kodluyor: #f38605;
 $color-grey: #737373;
 $color-explanation: #c1c1c1;
+$color-light-gray: #f9f9f9;
 
 $bg-filter:linear-gradient(
     rgb(45, 156, 219, 0.6), 
     rgba(155, 81, 224, 0.6));
+
+$bg-filter-two:linear-gradient(
+    90deg,
+    rgba(45,156,219,.6),
+    rgba(155,81,224,.6));
 
 $btn-filter:linear-gradient(
     90deg,
@@ -21,4 +27,5 @@ $btn-filter:linear-gradient(
     rgba(155,81,224,.6));
 
 $gutter: 0.3em;
+$gutter-two: 3rem;
 $offer: 10em;
