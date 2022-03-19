@@ -392,39 +392,6 @@ td {
   padding: 0;
 }
 
-.Header-switch {
-  display: none;
-}
-.Header-menu {
-  display: flex;
-}
-.Header-menu a {
-  padding: 1rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #737373;
-}
-.Header-menu a:hover {
-  transition: 0.3s;
-  color: black;
-  opacity: 0.7;
-}
-.Header-menu-helper select {
-  border: 0px;
-  background: #fff;
-  color: #737373;
-  font-weight: bold;
-}
-.Header-menu-helper-select-two {
-  display: none;
-}
-.Header-menu-helper-select-tree {
-  display: none;
-}
-.Header-logo img {
-  height: 45px;
-}
-
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -456,6 +423,43 @@ td {
   opacity: 0.7;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.Header-switch {
+  display: none;
+}
+.Header-menu {
+  display: flex;
+}
+.Header-menu a {
+  padding: 1rem;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #737373;
+}
+.Header-menu a:hover {
+  transition: 0.3s;
+  color: black;
+  opacity: 0.7;
+}
+.Header-menu-helper select {
+  border: 0px;
+  background: #fff;
+  color: #737373;
+  font-weight: bold;
+}
+.Header-menu-helper-select-two {
+  display: none;
+}
+.Header-menu-helper-select-tree {
+  display: none;
+}
+.Header-logo img {
+  height: 45px;
+}
+
 @media (max-width: 770px) {
   .Header-switch {
     display: flex;
@@ -470,7 +474,7 @@ td {
     flex-direction: column;
   }
   .Header-menu a {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     padding-bottom: 0.3px;
   }
   .Header-menu-helper {
@@ -479,4 +483,31 @@ td {
   .Header.menu-show .Header-menu {
     display: none;
   }
+}
+.Section {
+  height: 700px;
+  background: linear-gradient(rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url(../../images/bg-image.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.Section-container {
+  position: absolute;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+  width: 100%;
+  border: 3px solid #73AD21;
+  color: #fff;
+}
+.Section-container h2 {
+  font-size: 3.5em;
+}
+.Section-container div p {
+  font-size: 1.4em;
+}
+.Section-container div button {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.4em;
 }
