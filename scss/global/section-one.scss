@@ -1,9 +1,7 @@
 .Section{
     height: 700px;
     background:
-        linear-gradient(
-            rgb(45, 156, 219, 0.6), 
-            rgba(155, 81, 224, 0.6)),
+        $bg-filter,
         url(../../images/bg-image.webp);
     background-position: center;
     background-size: cover;
@@ -12,16 +10,17 @@
     &-container{
         position: absolute;
         margin: auto;
-        margin-top: 25%;
+        margin-top: 20%;
         text-align: center;
         width: 100%;
-        border: 3px solid #73AD21;
         color: #fff;
 
         h2{
             font-size: $heading-large;
+            padding-bottom: 0.5em;
         }
         div{
+            padding-bottom: 2em;
             p{
                 font-size: $text-size-medium;
             }

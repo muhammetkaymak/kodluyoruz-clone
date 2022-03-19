@@ -1,4 +1,5 @@
 $heading-large: 3.5em;
+$heading-large-two: 2.5em;
 $heading-medium: 1.1em;
 $heading-small: 0.9em;
 
@@ -8,3 +9,16 @@ $font-family: 'Roboto', sans-serif;
 
 $color-kodluyor: #f38605;
 $color-grey: #737373;
+$color-explanation: #c1c1c1;
+
+$bg-filter:linear-gradient(
+    rgb(45, 156, 219, 0.6), 
+    rgba(155, 81, 224, 0.6));
+
+$btn-filter:linear-gradient(
+    90deg,
+    rgba(45,156,219,.6),
+    rgba(155,81,224,.6));
+
+$gutter: 0.3em;
+$offer: 10em;

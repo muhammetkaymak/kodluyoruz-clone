@@ -1,0 +1,40 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+
+    &-title{
+        text-align: center;
+        font-size: $heading-large;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    &-items{
+        display: flex;
+        justify-content: center;
+
+        &-item{
+            text-align: center;
+            @media (min-width:770px) {
+                margin-left: 3em;
+            }
+
+            &-title{
+                font-size: $heading-large-two;
+                color: $color-grey;
+                padding-bottom: $gutter;
+            }
+
+            &-img{
+                img{
+                    height: 160px;
+                }
+            }
+
+            &-explanation{
+                color: $color-explanation;
+                padding-bottom: $gutter;
+            }
+        }
+    }
+}

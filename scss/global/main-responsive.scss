@@ -1,0 +1,16 @@
+@media (max-width:770px){
+    .Main{
+        &-title{
+            font-size: 2em;
+        }
+        &-items{
+            display: flex;
+            flex-direction: column;
+
+        }
+        &-item{
+            text-align: center;
+        }
+        
+    }   
+}
