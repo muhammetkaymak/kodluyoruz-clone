@@ -1,0 +1,33 @@
+.Header{
+    border-bottom: 1px solid black;
+    &-menu{
+        display: flex;
+        a{
+            padding: 1rem;
+            font-size: $heading-medium;
+            font-weight: bold;
+            color: $color-grey;
+
+            &:hover{
+                transition: 0.3s;
+                color: black;
+                opacity: 0.7;
+            }
+        }
+
+        &-helper{
+            select{
+                border: 0px;
+                background: #fff;
+                color: $color-grey;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &-logo{
+        img{
+            height: 45px;
+        }
+    }
+}
