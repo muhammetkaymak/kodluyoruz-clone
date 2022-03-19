@@ -2,8 +2,11 @@
     font-family: $font-family;
 }
 
-a{
-    color: #fff;
+
+.Header{
+    &-switch{
+        display: none;
+    }
 }
 
 .container{
@@ -11,7 +14,9 @@ a{
     display: flex;
     align-items: center;
     padding: 2rem;
+    position: relative;
 }
+
 
 .btn{
     border: 1px solid orange;
@@ -20,6 +25,7 @@ a{
     font-size: 1.1em;
     font-weight: 700;
     letter-spacing: 0.1em;
+    color: #fff;
     background: $color-kodluyor;
 
     &:hover{

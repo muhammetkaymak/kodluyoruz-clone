@@ -392,8 +392,8 @@ td {
   padding: 0;
 }
 
-.Header {
-  border-bottom: 1px solid black;
+.Header-switch {
+  display: none;
 }
 .Header-menu {
   display: flex;
@@ -415,6 +415,12 @@ td {
   color: #737373;
   font-weight: bold;
 }
+.Header-menu-helper-select-two {
+  display: none;
+}
+.Header-menu-helper-select-tree {
+  display: none;
+}
 .Header-logo img {
   height: 45px;
 }
@@ -423,8 +429,8 @@ td {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: #fff;
+.Header-switch {
+  display: none;
 }
 
 .container {
@@ -432,6 +438,7 @@ a {
   display: flex;
   align-items: center;
   padding: 2rem;
+  position: relative;
 }
 
 .btn {
@@ -441,9 +448,35 @@ a {
   font-size: 1.1em;
   font-weight: 700;
   letter-spacing: 0.1em;
+  color: #fff;
   background: #f38605;
 }
 .btn:hover {
   transition: 0.3s;
   opacity: 0.7;
+}
+
+@media (max-width: 770px) {
+  .Header-switch {
+    display: flex;
+  }
+  .Header-menu {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    flex-direction: column;
+  }
+  .Header-menu a {
+    font-size: 0.9rem;
+    padding-bottom: 0.3px;
+  }
+  .Header-menu-helper {
+    display: none;
+  }
+  .Header.menu-show .Header-menu {
+    display: none;
+  }
 }

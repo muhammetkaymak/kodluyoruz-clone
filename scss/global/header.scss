@@ -1,5 +1,10 @@
 .Header{
-    border-bottom: 1px solid black;
+    // border-bottom: 1px solid black;
+
+    &-switch{
+        display: none;
+    }
+
     &-menu{
         display: flex;
         a{
@@ -21,6 +26,15 @@
                 background: #fff;
                 color: $color-grey;
                 font-weight: bold;
+            }
+            &-select{
+                &-two{
+                    display: none;
+                }
+
+                &-tree{
+                    display: none;
+                }
             }
         }
     }
