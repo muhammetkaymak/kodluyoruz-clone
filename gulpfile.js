@@ -3,11 +3,14 @@ const {src,dest,watch,series} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const prefix = require('gulp-autoprefixer');
 const browsersync = require('browser-sync').create();
+const postcss = require('gulp-postcss');
+const cssnano = require('cssnano');
 
 function scssTask(){
     return src('./scss/main.scss')
     .pipe(sass())
     .pipe(prefix())
+    .pipe(postcss([cssnano()]))
     .pipe(dest('./css/'))
 }
 
