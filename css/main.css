@@ -431,7 +431,6 @@ td {
   border-radius: 9999px;
   font-size: 1.1em;
   font-weight: 700;
-  letter-spacing: 0.1em;
   color: #fff;
   background: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
 }
@@ -470,7 +469,7 @@ td {
   display: none;
 }
 .Header-logo img {
-  height: 45px;
+  height: 40px;
 }
 
 @media (max-width: 770px) {
@@ -630,4 +629,107 @@ td {
 }
 .AsideTwo-container-items-item p:nth-child(2) {
   color: #c1c1c1;
+}
+
+@media (max-width: 770px) {
+  .AsideTwo-container-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+}
+.ArticleOne {
+  background: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+}
+.ArticleOne-container {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.ArticleOne-container-title {
+  color: #fff;
+  font-size: 2.5em;
+  padding-bottom: 2rem;
+}
+.ArticleOne-container-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.ArticleOne-container-items-item {
+  width: 470px;
+  height: 300px;
+}
+.ArticleOne-container-items-item iframe {
+  width: 470px;
+  height: 300px;
+}
+
+.ArticleTwo {
+  background: #f9f9f9;
+}
+.ArticleTwo-container {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ArticleTwo-container div {
+  display: flex;
+  flex-direction: column;
+}
+.ArticleTwo-container div:nth-child(1) img {
+  width: 18rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.ArticleTwo-container div:nth-child(1) button {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.ArticleTwo-container div:nth-child(2) {
+  width: 470px;
+  height: 300px;
+}
+.ArticleTwo-container div:nth-child(2) iframe {
+  width: 470px;
+  height: 300px;
+}
+
+@media (max-width: 770px) {
+  .ArticleOne-container-items {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .ArticleOne-container-items-item {
+    width: 20em;
+    height: 13em;
+    margin: 20px;
+  }
+  .ArticleOne-container-items-item iframe {
+    width: 20em;
+    height: 13em;
+  }
+
+  .ArticleTwo-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ArticleTwo-container div:nth-child(1) {
+    margin: auto;
+  }
+  .ArticleTwo-container div:nth-child(2) {
+    width: 20em;
+    height: 13em;
+    margin: 20px;
+    margin: auto;
+  }
+  .ArticleTwo-container div:nth-child(2) iframe {
+    width: 20em;
+    height: 13em;
+  }
 }

@@ -1,6 +1,11 @@
+// Helper Style
+
 @import 'helper/normalize.scss';
 @import 'helper/formalize.scss';
 @import 'helper/_variable.scss';
+
+
+// Style
 
 @import 'global/global.scss';
 
@@ -12,4 +17,9 @@
 @import 'global/main.scss';
 @import 'global/main-responsive.scss';
 
-@import 'global/aside-one.scss';
+@import 'global/aside.scss';
+@import 'global/aside-responsive.scss';
+
+@import 'global/article.scss';
+@import 'global/article-responsive.scss';
+

@@ -1,0 +1,53 @@
+@media (max-width:770px){
+
+    // Article One
+
+    .ArticleOne{
+        &-container{
+            &-items{
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+
+                &-item{
+                    width: 20em;
+                    height: 13em;
+                    margin: 20px;
+
+
+                    iframe{
+                        width: 20em;
+                        height: 13em;
+                    }
+                }
+            }
+        }
+    }
+
+    // Article Two
+
+    .ArticleTwo{
+        &-container{
+            display: flex;
+            flex-direction: column;
+
+            div{
+                &:nth-child(1){
+                    margin: auto;
+                }
+
+                &:nth-child(2){
+                    width: 20em;
+                    height: 13em;
+                    margin: 20px;
+                    margin: auto;
+
+                    iframe{
+                        width: 20em;
+                        height: 13em;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@media (max-width:770px){
+
+    // Aside Two
+    
+    .AsideTwo{
+        &-container{
+            &-items{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+}
