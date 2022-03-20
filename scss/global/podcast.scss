@@ -1,0 +1,47 @@
+.Podcast{
+    background: $color-light-gray;
+
+    &-container{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        &-title{
+            font-size: $heading-large-two;
+        }
+
+        &-explanation{
+            color: $color-grey;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+
+            a{
+                color: $color-grey;
+                text-decoration: underline;
+            }
+        }
+
+        div{
+            a{
+                color: #fff;
+                text-decoration: underline;
+
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+.Explanation{
+    background: $bg-filter-two;
+    p{
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+    }
+}

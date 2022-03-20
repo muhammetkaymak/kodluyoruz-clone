@@ -1,0 +1,26 @@
+.Oduller{
+    &-container{
+        text-align: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+        &-bar{
+            padding-bottom: 2.5rem;
+
+            &-title{
+                font-size: $heading-large-two;
+                padding-bottom: 1rem;
+            }
+
+            &-explanation{
+                color: $color-grey;
+            }
+        }
+
+        &-image{
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
